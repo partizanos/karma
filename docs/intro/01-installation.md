@@ -32,12 +32,19 @@ dependencies installed.
 $ ./node_modules/karma/bin/karma start
 ```
 
+
+
 ## Commandline Interface
 Typing `./node_modules/karma/bin/karma start` sucks and so you might find it useful to install `karma-cli` globally.
 
 ```bash
 $ npm install -g karma-cli
 ```
+
+For windows you have to add the karma as a variable in your environment:
+In command prompt type:
+set PATH=%PATH%;C:...(path depends on your OS)... \AppData\Roaming\npm
+
 
 Then, you can run Karma simply by `karma` from anywhere and it will always run the local version.
 
